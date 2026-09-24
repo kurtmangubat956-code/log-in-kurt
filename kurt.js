@@ -3,7 +3,7 @@ let clickCount = 0;
 
 clickMeBtn.addEventListener('click', () => {
   clickCount++;
-  // Fixed: Added backticks around template literal
+  
   alert(`You clicked me ${clickCount} time${clickCount > 1 ? 's' : ''}!`);
 });
 
@@ -35,6 +35,6 @@ document.getElementById('loginBtn').addEventListener('click', () => {
     return;
   }
 
-  // Fixed: Added backticks around template literal
+  
   alert(`Login attempted with username: ${username}`);
 });
